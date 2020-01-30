@@ -1,8 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import About from './components/about'
 const App =()=>{
     return(
-        <p>sandeep</p>
+        <>
+        <About/>
+        </>
+        
     )
 }
 ReactDOM.render(<App/>,document.querySelector("#root"))
