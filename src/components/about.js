@@ -1,33 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Sandeep from './images/sandeep.jpg'
 const About =()=>{
     return(
         <section id="about">
         <div className="box">
             <div className="profile-summary">
-                <div classname="profile-image">
-                    <img src="./images/sandeep.jpg" alt="Sandeep Namdev" classname="profile-pic"/>
+                <div className="profile-image">
+                    <img src={Sandeep} alt="Sandeep Namdev" className="profile-pic"/>
                 </div>
-                <div classname="profile-heading">
+                <div className="profile-heading">
                     <h1>Sandeep Namdev</h1>
                     <p>
-                        <span classname="icon"><i classname="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span className="icon"><i className="fa fa-envelope-o" aria-hidden="true"></i></span>
                         sandeep.namdev103@gmail.com</p>
                     <p>
-                       <sapn classname="icon"><i classname="fa fa-map-marker" aria-hidden="true"></i></sapn>
+                       <sapn className="icon"><i className="fa fa-map-marker" aria-hidden="true"></i></sapn>
                         Jaipur, Rajasthan</p>
                 </div>
             </div>
-            <div classname="profile-description">
+            <div className="profile-description">
                 <h1>About Me</h1>
-                <p>Separating paragraphs with blank lines is easiest 
-                    for readers to scan, but they can also be separated
-                    by indenting their first lines. This is often used 
-                    to take up less space, such as to save paper in print.</p>
-                    <p>Separating paragraphs with blank lines is easiest 
-                        for readers to scan, but they can also be separated
-                        by indenting their first lines. This is often used 
-                        to take up less space, such as to save paper in print.</p>
+                <p>Talented individual with ability to work under little or no supervision. Hopeful for the Software Developer position in your organization to utilize expertise in software development and testing, as well as deployment and support using agile development methodologies. Possess strong ability to develop application using Java based tools.</p>
             </div>
         </div>
     </section>
