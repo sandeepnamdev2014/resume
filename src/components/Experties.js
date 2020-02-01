@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import AwareIM from './images/AwareIM.png';
-import HighCharts from './images/HighCharts.png';
+import HighCharts from './images/HighChartsImage.png';
 import KendoUI from './images/KendoUI.jpg' 
 
 const Experties =()=>{
